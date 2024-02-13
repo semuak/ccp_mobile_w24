@@ -48,16 +48,18 @@ video{
     margin-right: auto; 
     object-fit: contain;
     height: 85%;
+    position: relative;
 }
 
 .bacon-photos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
     justify-content: center;
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
+    align-items: center;
 }
 
 .cody-photos{
@@ -72,14 +74,14 @@ video{
 
 .van_gogh-photos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
     justify-content: center;
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
     object-fit: cover;
+    align-items: center;
 }
 
 .extra_cookie_pics{
@@ -90,6 +92,7 @@ video{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
+    padding: 0 0 10px 0;
 }
 
 .extra_grilled_cheese_pics{
@@ -100,6 +103,7 @@ video{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
+    padding: 0 0 10px 0;
 }
 
 .extra_spaghetti_pics{
@@ -130,6 +134,7 @@ video{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
+    padding: 0 0 10px 0;
 }
 
 figcaption{
@@ -144,7 +149,8 @@ figcaption{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
-    padding: 0 0 30px 0
+    padding: 0 0 30px 0;
+    align-items: center;
 }
 
 .london_photo_gallery{
@@ -155,7 +161,8 @@ figcaption{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
-    padding: 0 0 30px 0
+    padding: 0 0 30px 0;
+    align-items: center;
 }
 
 .mexico_photo_gallery{
@@ -166,7 +173,8 @@ figcaption{
     margin: auto;
     background: #CCCCFF;
     border: 3px solid #000000;
-    padding: 0 0 30px 0
+    padding: 0 0 30px 0;
+    align-items: center;
 }
 
 body{
@@ -252,6 +260,7 @@ li {
   figcaption{
     text-align: center;
     font-size: 19px;
+    padding-right: 10px;
   }
 
   .animated_imgs{
